@@ -1,0 +1,128 @@
+body{
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+.bg-info{
+    background-color: rgb(42, 36, 37)!important;
+    
+}
+.bg-danger{
+    background-color: rgb(107, 37, 54)!important;
+    padding: .5rem;
+}
+.bg-dark{
+    background-color: rgb(224, 0, 45)!important;    
+}
+@media (min-width:992px){
+    .bg-danger{
+        background-color: rgb(107, 37, 54)!important;
+        -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    }
+
+}
+.rifa{
+    width: 100%;
+}
+/* rayon y libertar atras de la beuregard , casa rosada! */
+.nav-link{
+    color: white;
+    transition: .5s all ease;
+    /* padding: .6rem; */
+    font-size: 1rem;
+}
+
+.nav-link:hover{
+    color: #f53756;
+}
+/* VIDEO */
+.embed-responsive{
+    position: relative;
+    background-image: url(../img/bg-pizza.jpg);
+    height: 45rem;
+    background-size: cover;
+}
+.info-pizza{
+    position: absolute;
+    top: 20%;
+    z-index: 100;
+}
+.info-pizza h1{
+    font-size: 3rem;
+    line-height: 6rem;
+    color: white;
+}
+.info-pizza h1 span,
+.info-pizza p{
+    font-weight: 700;
+    box-shadow: -1px 4px 23px 1px rgba(0,0,0,0.75);
+}
+.info-pizza p{
+    font-size: 2rem;
+}
+.info-pizza .text-dark{
+    color: #f53756!important; 
+    font-weight: 700;
+}
+@media (min-width: 992px){
+    .info-pizza{
+        top: 35%;
+    }   
+    .embed-responsive{
+        background-image: unset;
+        height: auto;
+    }
+    .info-pizza h1{
+        font-size: 4rem;
+        line-height: unset
+    }
+}
+.fecha{
+    font-size: 1.25rem;
+}
+.rd-sociales{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+/* productos */
+.productos{
+    background-image: url('../img/pexels-photo-1653877.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+}
+@media (min-width: 992px){
+    .productos-text{
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+    .fecha{
+    font-size: 3rem;
+    }
+
+}
+.polig {
+    -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)
+}
+.sorteo img{
+-webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)
+}
+/* footer */
+.footer{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: aliceblue;
+}
+.footer .corazon{
+    color: #c03249;
+    font-size: 2.4rem;
+    /* display: block; */
+}
+.footer .fecha{
+    font-size: .9rem;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+}
